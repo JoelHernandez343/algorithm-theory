@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(rel="stylesheet" href="./css/materialize.min.css")
+    link(rel="stylesheet" href="./css/main.css")
+    link(href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap" rel="stylesheet")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    title Orden de Multplicación de matrices | PRÁCTICA 
+  body
+    .row
+      #title.col.s12.l5
+        h4 Práctica 4
+        h5 Orden de multiplicación de matrices
+        h6 Joel Harim Hernández Javier
+        p Grupo: 3CM4
+        #matrices
+          .row
+            .input-field.col.s6
+              input#dimension1.validate(type="text" value="")
+              label(for="dimension1") Dimensión 1
+            .input-field.col.s6
+              input#dimension2.validate(type="text")
+              label(for="dimension2") Dimensión 2
+          .row
+            .input-field.col.s6
+              input#dimension3.validate(type="text")
+              label(for="dimension3") Dimensión 3
+            .input-field.col.s6
+              input#dimension4.validate(type="text")
+              label(for="dimension4") Dimensión 4
+          .row
+            .input-field.col.s6
+              input#dimension5.validate(type="text")
+              label(for="dimension5") Dimensión 5
+            .input-field.col.s6
+              input#dimension6.validate(type="text")
+              label(for="dimension6") Dimensión 6
+          .row
+            a#eval.waves-effect.waves-light.btn.indigo.darken-2
+              i.material-icons.right arrow_forward
+              | Evaluar
+    row   
+      #table.col.s12
+          
+
+        
+
+  script(src="./js/jquery-3.4.1.min.js")
+  script(src="./js/materialize.min.js")
+  script(type="module" src="./js/main.js")

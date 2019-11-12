@@ -1,0 +1,80 @@
+/*
+ * Code by Joel Hernández
+ */
+* {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background: #100e17;
+}
+
+h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-weight: 700;
+    margin-top: 0;
+}
+#title {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#table {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+    #table {
+        padding-top: 40px;
+    }
+}
+
+.bars {
+    font-weight: 700;
+}
+
+.parent {
+    padding: 0px !important;
+}
+
+.content {
+    background: #17141d;
+    padding: 5px;
+    margin: 0px 10px 0px;
+    font-size: 0.8em;
+    border-radius: 8px;
+    box-shadow: 0 4px 40px #070509;
+}
+
+.best-cost {
+    font-weight: 600;
+    color: #4DE349;
+}
+
+.best-part {
+    font-weight: 700;
+    color: #E34949;
+}
+
+.best-op {
+    font-weight: 500;
+}
+
+.cost {
+    color: #4F4E52;
+}
+
+.part {
+    color: #4F4E52;
+}
+
+.op {
+    color: #4F4E52;
+}
